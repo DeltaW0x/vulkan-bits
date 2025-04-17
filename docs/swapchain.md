@@ -10,7 +10,7 @@ Here's an example from [SDL's GPU subsystem](https://github.com/libsdl-org/SDL/b
 ### NVIDIA + Win32 invalid swapchain extent
 On Win32, sometimes NVIDIA drivers will report an invalid surface with 0x0 extent.
 
-Creating an swapchain width invalid dimensions is illegal and will crash your application!
+Creating an swapchain with invalid dimensions is illegal and will crash your application!
 
 Be sure to check `VkSurfaceCapabilitiesKHR`'s `currentExtent.width` and `currentExtent.height` for 0-values. 
 
