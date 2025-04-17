@@ -1,4 +1,6 @@
 site_name: Vulkan Bits
+description: "The Vulkan bit 'n bobs I wish I knew before"
+
 nav:
   - Home: index.md
   - Device: device.md 
