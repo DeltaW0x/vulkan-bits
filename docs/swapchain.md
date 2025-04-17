@@ -1,7 +1,7 @@
 # Vulkan Swapchain Quirks
 
 ### Non-Apple platforms swapchain extent/window extent mismatch
-On non-apple platforms, when using high-dpi displays there's a mismath between the reported surface extent and the real window size.
+On non-apple platforms, when using high-dpi displays there's a mismatch between the reported surface extent and the real window size.
 
 In this case, be sure to query your real window's size in pixels instead of relying on `currentExtent.width` and `currentExtent.height`, clamped between `minImageExtent` and `maxImageExtent`.
 
