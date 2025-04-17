@@ -1,5 +1,13 @@
 site_name: Vulkan Bits
 nav:
   - Home: index.md
+  - Device: device.md 
+  - Swapchain: swapchain.md
   - About: about.md
-theme: readthedocs
+
+theme: 
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - c
+    - cpp
